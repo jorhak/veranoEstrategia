@@ -5,6 +5,8 @@
 package com.estrategia.contacto;
 
 import com.estrategia.estrategia.Conexion;
+import com.estrategia.estrategia.EstrategiaMySQL;
+import com.estrategia.estrategia.EstrategiaPostgres;
 import com.estrategia.estrategia.IEstrategia;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
@@ -37,7 +39,7 @@ public class MContacto {
     }
     
     public void CambiarEstrategia(boolean estrategia){
-        c.setEstrategia(estrategia);
+        c.setEstrategia(estrategia ? EstrategiaMySQL.getInstance() : EstrategiaPostgres.getInstance());
     }
 
     public void SetID(String id) {

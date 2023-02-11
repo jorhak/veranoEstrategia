@@ -29,8 +29,8 @@ public class Conexion {
         con = estrategia.getConnection();
     }
 
-    public void setEstrategia(boolean estrategia) {
-        this.estrategia = estrategia ? EstrategiaMySQL.getInstance() : EstrategiaPostgres.getInstance();
+    public void setEstrategia(IEstrategia estrategia) {
+        this.estrategia = estrategia;
         this.con = this.estrategia.getConnection();
     }
 
