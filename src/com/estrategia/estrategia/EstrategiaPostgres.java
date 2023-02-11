@@ -13,7 +13,7 @@ import java.sql.SQLException;
  * @author jorhak
  */
 public class EstrategiaPostgres implements IEstrategia{
-    private static final String host = "192.168.0.21";
+    private static final String host = "192.168.0.24";
     private static final String database = "contactos";
     private static final String user = "postgres";
     private static final String password = "perpetuaeternidad";

@@ -36,7 +36,7 @@ public class MContacto {
         c = new Conexion();
     }
     
-    public void CambiarEstrategia(IEstrategia estrategia){
+    public void CambiarEstrategia(boolean estrategia){
         c.setEstrategia(estrategia);
     }
 

@@ -14,7 +14,7 @@ import java.sql.SQLException;
  */
 public class EstrategiaMySQL implements IEstrategia{
 
-    private static final String host = "192.168.0.21";
+    private static final String host = "192.168.0.24";
     private static final String database = "Contactos";
     private static final String user = "root";
     private static final String password = "perpetuaeternidad";

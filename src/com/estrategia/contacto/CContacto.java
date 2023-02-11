@@ -44,12 +44,12 @@ public class CContacto implements ActionListener{
         
         if(vista.radioPostgres.isSelected()){
             vista.radioMySQL.setSelected(false);
-            modelo.CambiarEstrategia(EstrategiaPostgres.getInstance());
+            modelo.CambiarEstrategia(false);
         }
         
         if(vista.radioMySQL.isSelected()){
             vista.radioPostgres.setSelected(false);
-            modelo.CambiarEstrategia(EstrategiaMySQL.getInstance());
+            modelo.CambiarEstrategia(true);
         }
         
         Listar();
