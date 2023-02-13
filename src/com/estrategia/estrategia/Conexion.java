@@ -31,9 +31,12 @@ public class Conexion {
 
     public void setEstrategia(IEstrategia estrategia) {
         this.estrategia = estrategia;
+    }
+    
+    public void procesar(){
         this.con = this.estrategia.getConnection();
     }
-
+   
     public IEstrategia getEstrategia() {
         return estrategia;
     }

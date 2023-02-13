@@ -40,6 +40,7 @@ public class MContacto {
     
     public void CambiarEstrategia(boolean estrategia){
         c.setEstrategia(estrategia ? EstrategiaMySQL.getInstance() : EstrategiaPostgres.getInstance());
+        c.procesar();
     }
 
     public void SetID(String id) {
