@@ -5,7 +5,10 @@
         <group>
             <file>file:/home/jorhak/NetBeansProjects/estrategia/src/com/estrategia/contacto/CContacto.java</file>
             <file>file:/home/jorhak/NetBeansProjects/estrategia/src/com/estrategia/estrategia/Conexion.java</file>
+            <file>file:/home/jorhak/NetBeansProjects/estrategia/src/com/estrategia/estrategia/EstrategiaMySQL.java</file>
             <file>file:/home/jorhak/NetBeansProjects/estrategia/src/com/estrategia/contacto/MContacto.java</file>
+            <file>file:/home/jorhak/NetBeansProjects/estrategia/src/com/estrategia/estrategia/EstrategiaPostgres.java</file>
+            <file>file:/home/jorhak/NetBeansProjects/estrategia/manifest.mf</file>
         </group>
     </open-files>
 </project-private>

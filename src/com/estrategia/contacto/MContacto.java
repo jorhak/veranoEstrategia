@@ -7,10 +7,8 @@ package com.estrategia.contacto;
 import com.estrategia.estrategia.Conexion;
 import com.estrategia.estrategia.EstrategiaMySQL;
 import com.estrategia.estrategia.EstrategiaPostgres;
-import com.estrategia.estrategia.IEstrategia;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -37,8 +35,8 @@ public class MContacto {
         this(0, "", "", "");
         c = new Conexion();
     }
-    
-    public void CambiarEstrategia(boolean estrategia){
+
+    public void CambiarEstrategia(boolean estrategia) {
         c.setEstrategia(estrategia ? EstrategiaMySQL.getInstance() : EstrategiaPostgres.getInstance());
         c.procesar();
     }

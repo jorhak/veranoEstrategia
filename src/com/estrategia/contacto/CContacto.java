@@ -4,8 +4,6 @@
  */
 package com.estrategia.contacto;
 
-import com.estrategia.estrategia.EstrategiaMySQL;
-import com.estrategia.estrategia.EstrategiaPostgres;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.LinkedHashMap;
